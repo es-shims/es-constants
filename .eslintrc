@@ -1,0 +1,31 @@
+{
+	"root": true,
+
+	"extends": "@ljharb",
+
+	"rules": {
+		"id-length": "off",
+	},
+
+	"overrides": [
+		{
+			"files": "./*/implementation.js",
+			"rules": {
+				"no-loss-of-precision": "warn",
+				"no-magic-numbers": "off",
+			},
+		},
+		{
+			"files": "./shim.js",
+			"rules": {
+				"camelcase": "off",
+			},
+		},
+		{
+			"files": "test/**/*.js",
+			"rules": {
+				"no-loss-of-precision": "off",
+			},
+		},
+	],
+}
