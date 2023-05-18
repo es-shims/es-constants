@@ -1,0 +1,52 @@
+{
+	"name": "es-constants",
+	"version": "0.0.0",
+	"description": "An ES-spec-compliant shim/polyfill/replacement for JS language Math and Number constant values that works as far down as ES3",
+	"main": "index.js",
+	"exports": {
+		".": "./index.js",
+		"./package.json": "./package.json"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/es-shims/es-constants.git"
+	},
+	"keywords": [
+		"ecmascript",
+		"javascript",
+		"polyfill",
+		"shim",
+		"es-shim API",
+		"constants",
+		"Math",
+		"Number",
+		"EPSILON",
+		"MAX_VALUE",
+		"MIN_VALUE",
+		"max",
+		"min",
+		"MAX_SAFE_INTEGER",
+		"MIN_SAFE_INTEGER",
+		"safe",
+		"integer",
+		"POSITIVE_INFINITY",
+		"NEGATIVE_INFINITY",
+		"E",
+		"LN10",
+		"LN2",
+		"LOG10E",
+		"LOG2E",
+		"PI",
+		"SQRT1_2",
+		"SQRT2"
+	],
+	"author": "Jordan Harband <ljharb@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/es-shims/es-constants/issues"
+	},
+	"homepage": "https://github.com/es-shims/es-constants#readme"
+}
