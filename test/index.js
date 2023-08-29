@@ -2,7 +2,7 @@
 
 var test = require('tape');
 var forEach = require('for-each');
-var isArray = require('es-abstract/2022/IsArray');
+var isArray = require('isarray');
 
 var constants = require('../');
 

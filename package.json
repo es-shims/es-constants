@@ -149,6 +149,7 @@
 		"functions-have-names": "^1.2.3",
 		"has-strict-mode": "^1.0.1",
 		"in-publish": "^2.0.1",
+		"isarray": "^2.0.5",
 		"npmignore": "^0.3.0",
 		"nyc": "^10.3.2",
 		"safe-publish-latest": "^2.0.0",
@@ -156,8 +157,7 @@
 	},
 	"dependencies": {
 		"call-bind": "^1.0.2",
-		"define-properties": "^1.2.0",
-		"es-abstract": "^1.21.2"
+		"define-properties": "^1.2.0"
 	},
 	"engines": {
 		"node": ">= 0.4"
